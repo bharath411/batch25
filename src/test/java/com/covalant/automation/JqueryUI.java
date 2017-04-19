@@ -26,7 +26,7 @@ public class JqueryUI {
 	String browser  = "firefox";
 	@Test
 	public void testDragnDrop() {
-		
+		//This is a drag and drop example
 		WebElement iframeEle  = driver.findElement(By.cssSelector(".demo-frame"));
 		driver.switchTo().frame(iframeEle);
 		WebElement draggable = driver.findElement(By.id("draggable"));
