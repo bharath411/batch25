@@ -1,11 +1,11 @@
-package com.covalant.ng;
+package com.covalant.ng2;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Sample1 {
+public class Example1 {
 
 	@BeforeClass
 	public void init(){

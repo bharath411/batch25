@@ -1,0 +1,96 @@
+satishkottapalli
+satish1090
+
+--------------------------------------
+
+
+1.Maven
+	-- Build - test
+	-- Plugins
+2.TestNG
+	-- @Test
+	-- testng.xml
+	-- annotations
+		BeforeSuite
+		BeforeClass
+		BeforeMethod
+		AfterMethod
+		AfterClass
+		AfterSuite
+3.File IO
+	-- Reading/Writing text file
+	-- Excel sheet reading/writing
+	-- Properties File
+	
+4.Selenium 
+	-- Page Object Model
+	-- Page Factory
+	
+
+----------------------------------------------
+
+File
+FileReader
+BufferedReader
+FileInputStream
+BufferedInputStream
+FileWriter
+BufferedWriter
+FileOutputStream
+BufferedOutputStream
+
+
+Excel : xls / xlsx 
+.calc
+	Workbook
+		Sheets
+			Rows | Columns
+				Cell
+					
+------
+  -- jxl
+  -- poi
+		
+		
+		HSSFWorkbook	
+		HSSFSheet
+					SUNDAY 
+					MONDAY
+					
+		
+		
+		switch ::
+		
+			case
+			
+		if()
+			else if()
+				else if()
+					else
+	
+	
+	final
+	
+	Enum
+		
+		
+		
+		
+		
+	Excel - -HSSF XSSF
+	ENUMS
+	SWITCH
+	final
+	
+	
+	
+	Page Object Model :
+	
+		Identify the pages:
+			HomePage
+			AppLoginPage
+			AdminLoginPage
+			DashboardPage
+			
+	
+	

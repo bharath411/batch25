@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Batch24" verbose="1" >
+  <test name="Weekend"   >
+    <!-- <packages>
+    	<package name="com.covalant.ng"></package>
+    </packages> -->
+    
+    <classes>
+    	<class name="com.covalant.automation.scripts.TestAdminCart">
+    		
+    	</class>
+    </classes>
+ </test>
+</suite>
