@@ -1,13 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Batch24" verbose="1" >
+<listeners>
+	<listener class-name="com.covalant.automation.commons.ListenerExample"></listener>
+	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	<listener class-name="com.covalant.automation.commons.ExtentReportListiner"></listener>
+</listeners>
   <test name="Weekend"   >
-    <!-- <packages>
-    	<package name="com.covalant.ng"></package>
+  
+  <parameter name="bro" value="chrome"></parameter>
+  <parameter name="url" value="google.co"></parameter>
+   <parameter name="user" value="bharath"></parameter>
+    <parameter name="pass" value="bharath123"></parameter>
+    <!-- <groups>
+    	<run>
+    		<include name="smoke"></include>
+    	</run>
+    </groups>
+     <packages>
+    	<package name="com.covalant.ng2"></package>
     </packages> -->
-    
     <classes>
-    	<class name="com.covalant.automation.scripts.TestAdminCart">
-    		
+    	<class name="com.covalant.ng2.FactImple">
     	</class>
     </classes>
  </test>

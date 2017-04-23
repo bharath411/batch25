@@ -3,8 +3,11 @@ package com.covalant.ng2;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.covalant.automation.commons.ListenerExample;
+@Listeners(value={ListenerExample.class,ListenerExample.class})
 public class Example2 {
 
 	@BeforeSuite

@@ -92,5 +92,45 @@ Excel : xls / xlsx
 			AdminLoginPage
 			DashboardPage
 			
+			
+PageFactory
+Groups
+
+Annotations 
+	DataProvider
+	Parameters
+	Factory
+	Optional
+	
+	Listeners
+Reports:
+	TestNG
+	reportng 
+		-- 
+		--
+	
+Gird
+
+
+TestNG :
+	Method invocation.
+	Assertions
+	Reports
+	
+	
+	 -- Groups
+			1 
+
+
+
+
+
+https://batch25-slokam.rhcloud.com/me/configure
+
+admin/admin/a
+
+
+
+
 	
 	

@@ -1,10 +1,14 @@
 package com.covalant.ng2;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.covalant.automation.commons.ListenerExample;
+@Listeners(ListenerExample.class)
 public class Example1 {
 
 	@BeforeClass
@@ -24,6 +28,7 @@ public class Example1 {
 	@Test(priority=2)
 	public void updateProfile(){
 		System.out.println("This is updateProfile");
+		Assert.fail();
 	}
 	@Test(priority=2)
 	public void deleteProfile(){

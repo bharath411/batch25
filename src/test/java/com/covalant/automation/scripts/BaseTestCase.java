@@ -9,6 +9,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.covalant.automation.commons.DataDriver;
 
 public class BaseTestCase {
@@ -23,7 +25,8 @@ public class BaseTestCase {
 	public String prodcutName="";
 	public String appUser = "";
 	public String appPass = "";
-	
+	public ExtentHtmlReporter htmlReporter ;
+	public ExtentReports extent;
 	public void dataLoad(){
 		DataDriver data= new DataDriver();
 		adminUrl = data.getProperty("adminurl");
@@ -37,6 +40,9 @@ public class BaseTestCase {
 	}
 	@BeforeMethod
 	public void init(){
+		htmlReporter	= new ExtentHtmlReporter("extent.html");
+		extent = new ExtentReports();
+	    extent.attachReporter(htmlReporter);
 		dataLoad();
 		if(browser.equals("firefox")){
 			driver  = new FirefoxDriver();
