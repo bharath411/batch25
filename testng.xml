@@ -5,7 +5,7 @@
 	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	<listener class-name="com.covalant.automation.commons.ExtentReportListiner"></listener>
 </listeners>
-  <test name="Weekend"   >
+  <test name="Jenkins"   >
   
   <parameter name="bro" value="chrome"></parameter>
   <parameter name="url" value="google.co"></parameter>

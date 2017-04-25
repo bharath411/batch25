@@ -130,7 +130,7 @@ https://batch25-slokam.rhcloud.com/me/configure
 admin/admin/a
 
 
-
+https://bitnami.com/stack/opencart
 
 	
 	
