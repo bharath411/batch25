@@ -19,7 +19,7 @@ public class SwithExample {
 			System.out.println("I am busy on this sunday");
 			break;
 		case MONDAY:
-			System.out.println("I am super  dull");
+			System.out.println("I am super on this monday  ");
 			break;
 		case TUESDAY:
 			System.out.println("I am busy with work");
