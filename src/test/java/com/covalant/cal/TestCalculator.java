@@ -11,7 +11,7 @@ public class TestCalculator {
 	@Test
 	public void testAddPositive(){
 		
-		int a = 20;
+		int a = 23;
 		int b = 60;
 		
 		int expected  =80;
