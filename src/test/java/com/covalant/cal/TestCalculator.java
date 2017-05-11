@@ -12,9 +12,9 @@ public class TestCalculator {
 	public void testAddPositive(){
 		
 		int a = 20;
-		int b = 40;
+		int b = 60;
 		
-		int expected  =60;
+		int expected  =80;
 		
 		Calculator cal = new Calculator();
 		int actual  = cal.add(a,b);
