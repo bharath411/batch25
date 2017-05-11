@@ -16,7 +16,7 @@ public class SwithExample {
 	
 		switch (weekname) {
 		case SUNDAY:
-			System.out.println("I am super free today");
+			System.out.println("I am busy on this sunday");
 			break;
 		case MONDAY:
 			System.out.println("I am super  dull");
