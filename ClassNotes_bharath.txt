@@ -1,0 +1,198 @@
+Build Tool  -- Maven  , Ant , Gradle 
+
+Maven :
+
+Installation :
+
+  -- Eclipse 
+  -- Command Prompt
+		- https://archive.apache.org/dist/maven/maven-3/3.3.9/binaries/
+		JAVA_HOME 
+		MAVEN_HOME  D:\Slokam\apache-maven-3.3.9
+		PATH - D:\Slokam\apache-maven-3.3.9\bin
+		
+		mvn -version
+		
+---------------------------------------------
+
+Advantage : 
+
+	No need to download jar files .
+		Dependency 
+	
+		
+To create Project : 
+maven-archetype-webapp
+
+
+POM - Project Object Model .
+
+<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+</dependency>
+		
+<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+</dependency>
+		
+		
+  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>6.0.6</version>
+</dependency>
+
+https://mvnrepository.com/
+
+
+
+How to Add dependency?
+
+Local Repository
+
+Remote Repository ( Central , Public)
+
+Private Repository ?
+
+
+Maven Life Cycle :
+	 Phase/Stage ---- goal - install
+	  default -- 
+			compile  -- target
+			test-compile
+			test
+			package -- target- war
+			install -- .m2/repo
+			deploy -- remote repo.
+	  
+	  clean -- Cleaning the project
+	  site  --  Documentation .
+	  
+	  
+--------------------------------------------------
+9th May
+--------------------------------------------------
+
+Unit Testing :
+------------------------
+JUNIT
+TESTNG
+
+  ----- Avoid using of main method - Annotations - @Test 
+  ----- Assertions - Assert
+  ----- Reports (html , xml)
+				 -- TestNG
+1.Create a normal project
+2.Develop calculator application.
+3.Write unit test cases .
+4.Distribute jar. - -Private Repository
+adding 
+
+
+TestData :
+input
+expected o/p
+
+Annotations :
+
+	@Test
+
+	  
+Deprecated : 
+
+---------------------------
+Build Tool :
+Artefacts  -- war / jar /ear ...
+
+How to create a project :
+
+Prerequisites :
+Java  -- jdk
+Eclipse - Greater Than - Mars
+Internet 
+
+----------------------
+
+2 choice :
+
+	Web Application
+	Java Project
+	
+Project == artifact .
+
+Dependency -- jar 
+
+
+test
+test -Dtest=Marks
+------------------------------------------
+JUNIT
+------------------------------------------
+
+SVN :
+------------------------------------------
+Checkout -- copy code from svn .
+check in  -- copy code to svn
+commit   --
+
+Update  --- 
+
+Conflict -- 
+
+Merge  -- 
+Repository -- 
+
+Branch ---
+ 
+ -------------------------------------
+GIT
+
+clone   -- getting source code from git
+
+pull --- update
+
+commit -- Making files ready to push.
+
+push --- from local to git 
+
+
+-----------------------------------
+TWO Installation :
+
+Eclipse
+  --- 
+System
+https://git-scm.com/downloads
+
+
+Git url :  https://github.com/bharath411/batch25.git
+
+https://github.com/
+username
+password
+
+
+
+Import -->Git --> Projects from Git
+Clone URI
+copy url
+and give username/project
+
+clone ----
+change the code
+commit 
+
+
+--------------------
+
+Update Project -- Force .
+Compiler should be jdk.....
+
+
+
