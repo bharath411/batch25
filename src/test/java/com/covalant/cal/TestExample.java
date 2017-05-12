@@ -10,7 +10,7 @@ public class TestExample {
 	
 	@BeforeClass
 	public void beforeClass(){
-		System.out.println("I am before Class");
+		System.out.println("I am before bhargavi Class");
 	}
 	@AfterClass
 	public void afterClass(){

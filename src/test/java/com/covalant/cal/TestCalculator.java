@@ -12,7 +12,7 @@ public class TestCalculator {
 	public void testAddPositive(){
 		
 		int a = 23;
-		int b = 60;
+		int b = 68;
 		
 		int expected  =80;
 		
